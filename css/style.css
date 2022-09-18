@@ -6,7 +6,7 @@ html{
   box-sizing: inherit;
 }
 
-span:not(.age,.name){
+span:not(.age){
   display: block;
 }
 
@@ -64,6 +64,7 @@ body{
 }
 
 .name{
+  display: inline;
   margin-right: 0.5rem;
 }
 
