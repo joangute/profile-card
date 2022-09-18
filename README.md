@@ -40,4 +40,4 @@ body {
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/joangute)
+- Frontend Mentor - [@joangute](https://www.frontendmentor.io/profile/joangute)
