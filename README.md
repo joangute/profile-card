@@ -21,8 +21,8 @@ This card looks like a child's play but it might take some time for newbies if y
 
 ## Links
 
-- Solution URL: [GitHub Repository](https://github.com/joangute/mentor-solution_profile-card/)
-- Live Site URL: [GitHub Pages](https://joangute.github.io/mentor-solution_profile-card/)
+- Solution URL: [GitHub Repository](https://github.com/joangute/profile-card/)
+- Live Site URL: [GitHub Pages](https://joangute.github.io/profile-card/)
 
 ## What I learned
 
