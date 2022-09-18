@@ -1,0 +1,98 @@
+html{
+  box-sizing: border-box;
+}
+
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+
+span:not(.age,.name){
+  display: block;
+}
+
+img{
+  display: block;
+  width: 100%;
+  ba
+}
+
+body{
+  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 150vw,150vw;
+  background-position: top -75vw left -100vw, bottom -75vw right -100vw;
+  background-color: hsl(185, 75%, 39%) ;
+  color: hsl(227, 10%, 46%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  margin: 0 1.5rem;
+  background: white;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 3rem 4rem hsla(229, 23%, 23%,0.2);
+}
+
+.card img{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.data{
+  padding: 4.5rem 0 1.5rem;
+  position: relative;
+}
+
+.container-image{
+  border-radius: 50%;
+  border: .3rem solid white;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.container-image img{
+  border-radius: 50%;
+}
+
+.name{
+  margin-right: 0.5rem;
+}
+
+.city{
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.stats{
+  border-top: 1px solid hsla(0, 0%, 59%,.3);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.7rem 0;
+}
+
+.bold{
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.stats-title{
+  font-size: 0.625rem;
+  letter-spacing: 0.09rem;
+  margin-top: 0.4rem;
+}
+
+@media (min-width: 481px) {
+  body{
+    background-size: 100vh,100vh;
+    background-position: top -50vh left -20vh, bottom -50vh right -20vh;
+ }
+}
